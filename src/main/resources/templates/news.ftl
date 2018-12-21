@@ -36,7 +36,7 @@ a, a:active, a:focus, a:active {
 <body>
 <h1 style="text-align:center">News Headlines from Different Sources</h1>
 <div style="text-align:center">
-	<form action="/myapp/news" method="get">
+	<form action="/news" method="get">
 	    	<input type="text"name="search"/>
 	        <input type="submit" value="Submit" />
 	</form>

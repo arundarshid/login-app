@@ -19,12 +19,6 @@ public class NavigationController {
 		return "index";
 	}
 	
-	@GetMapping(value = "/test")
-	public String getvalues() {
-
-		return service.getHomePage(); 
-
-	}
 
 	@GetMapping(value = "/news")
 	public String getNews(@RequestParam("search") String searchQuery, Model model) {

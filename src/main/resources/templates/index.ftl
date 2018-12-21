@@ -5,6 +5,12 @@
     <title>Hello</title>
 </head>
 <body>
-    <h2 class="hello-title">Welcome to dummy home page</h2>
+<h1 style="text-align:center">News Headlines from Different Sources</h1>
+<div style="text-align:center">
+	<form action="/news" method="get">
+	    	<input type="text"name="search"/>
+	        <input type="submit" value="Submit" />
+	</form>
+</div>
 </body>
 </html>
